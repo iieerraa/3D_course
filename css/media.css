@@ -10,18 +10,6 @@
     max-width: 380px;
   }
 
-  .advantages__container {
-    padding-bottom: 60px;
-  }
-
-  .advantages__img {
-    padding-top: 57px;
-  }
-
-  .advantages__info {
-    margin-bottom: 6px;
-  }
-
   .hero__title {
     font-size: 50px;
     margin-bottom: 0;
@@ -32,13 +20,27 @@
     line-height: 149%;
   }
 
+  .advantages__container {
+    padding-bottom: 57px;
+  }
+
+  .advantages__img {
+    padding-top: 57px;
+  }
+
+  .advantages__info {
+    margin-bottom: 6px;
+  }
   .point {
-    padding: 75px 14px 0px;
-    background-position: calc(0% + 15px) top;
+    flex-direction: column;
+  }
+
+  .point__text {
+    margin-top: 7px;
   }
 
   .teachers__container {
-    padding-bottom: 34px;
+    padding-bottom: 35px;
   }
 
   .teachers__list {
@@ -47,6 +49,10 @@
 
   .courses {
     margin-bottom: 80px;
+  }
+
+  .courses__title {
+    margin-bottom: 23px;
   }
 
   .courses__cards {
@@ -69,10 +75,6 @@
   .card__btn {
     padding: 21px 56px;
   }
-
-  .footer__social-media {
-    padding-bottom: 23px;
-  }
 }
 
 @media (max-width: 767px) {
@@ -90,7 +92,7 @@
   .header__nav {
     max-width: 100%;
   }
-  
+
   .header__menu {
     padding-left: 20px;
     padding-right: 20px;
@@ -100,13 +102,13 @@
     background: none;
     padding-top: 43px;
   }
-  
+
   .hero__title {
     font-size: 50px;
   }
 
   .advantages__container {
-    padding-bottom: 38px;
+    padding-bottom: 37px;
   }
 
   .advantages__info {
@@ -117,16 +119,20 @@
     padding-top: 33px;
   }
 
+  .point__text {
+    margin-top: 6px;
+  }
+
   .teachers__container {
-    padding-bottom: 58px;
+    padding-bottom: 35px;
   }
 
   .courses {
-    margin-bottom: 79px;
+    margin-bottom: 78px;
   }
 
   .courses__cards {
-    row-gap: 29px;
+    row-gap: 30px;
   }
 
   .card__body {
@@ -195,7 +201,7 @@
 
   .advantages__container {
     padding-top: 34px;
-    /* padding-bottom: 75px; */
+    padding-bottom: 43px;
   }
 
   .advantages__img {
@@ -213,26 +219,23 @@
   }
 
   .advantages__cards {
-    gap: 30px;
+    gap: 26px;
   }
 
   .point {
-    padding: 2px 10px 1px 125px;
-    background-position: calc(0% + 15px) center;
+    flex-direction: row;
+    /* padding: 2px 10px 1px 125px; */
+    /* background-position: calc(0% + 15px) center; */
   }
 
   .point__text {
     margin: 0;
-  }
-
-  .advantages__container {
-    padding-top: 34px;
-    padding-bottom: 50px;
+    margin-top: 2px;
   }
 
   .teachers__container {
     padding-top: 31px;
-    padding-bottom: 30px;
+    padding-bottom: 29px;
   }
 
   .teachers__card {
@@ -247,8 +250,12 @@
     margin-bottom: 27px;
   }
 
+  .teachers__tagline {
+    padding-right: 0;
+  }
+
   .courses {
-    margin-bottom: 50px;
+    margin-bottom: 51px;
   }
 
   .courses__container {
@@ -280,6 +287,6 @@
   }
 
   .footer__social-media {
-    padding-bottom: 24px;
+    padding-bottom: 23px;
   }
 }

@@ -174,7 +174,7 @@ body {
   background: radial-gradient(44.07% 44.07% at 67.78% 55.93%, rgb(85, 86, 129) 0%, rgb(33, 33, 51) 100%);
 }
 
-.hero__container { 
+.hero__container {
   background: url('../img/hero.png') no-repeat calc(100% - 14px) center;
   color: white;
   padding-top: 90px;
@@ -207,11 +207,11 @@ body {
 /* advantages */
 .advantages__container {
   padding-top: 47px;
-  padding-bottom: 75px;
+  padding-bottom: 74px;
 }
 
 .advantages__info {
-  margin-bottom: 2px;
+  margin-bottom: 7px;
 }
 
 .advantages__img {
@@ -235,36 +235,31 @@ body {
 }
 
 .point {
+  width: 100%;
   font-weight: 700;
   font-size: 16px;
   line-height: 120%;
   color: #666;
-  padding-left: 125px;
-  background-repeat: no-repeat;
-  background-position: calc(0% + 15px) center;
 }
 
-.advantages__point-one {
-  background-image: url('../img/point-eye.svg');
+.point__picture {
+  min-width: 80px;
+  margin-right: 30px;
 }
 
-.advantages__point-two {
-  background-image: url('../img/point-fingers.svg');
-}
-
-.advantages__point-three {
-  background-image: url('../img/point-speaker.svg');
+.point__text {
+  margin-top: 11px;
 }
 
 /* teachers */
 .teachers {
   background-color: var(--color_dark-blue);
-  color: white;  
+  color: white;
 }
 
 .teachers__container {
   padding-top: 41px;
-  padding-bottom: 81px;
+  padding-bottom: 56px;
 }
 
 .teachers__title {
@@ -287,6 +282,7 @@ body {
   font-size: 16px;
   line-height: 150%;
   color: #85859b;
+  padding-right: 17px;
 }
 
 /* courses */
