@@ -204,6 +204,10 @@ body {
   padding: 24px 76px;
 }
 
+.hero__background {
+  flex-grow: 1;
+}
+
 /* advantages */
 .advantages__container {
   margin-bottom: 74px;
@@ -223,6 +227,7 @@ body {
 
 .advantages__title {
   margin-bottom: 17px;
+  color: #2e2b44;
 }
 
 .advantages__descr {
@@ -233,6 +238,10 @@ body {
   margin-top: 0;
   margin-bottom: 0;
 }
+
+/* .point {
+  align-items: center;
+} */
 
 .point__picture {
   margin-right: 30px;
@@ -265,8 +274,7 @@ body {
 }
 
 .teachers__photo {
-  display: block;
-  margin-bottom: 31px;
+  margin-bottom: 27px;
   border-radius: 20px 20px 0 0;
 }
 
