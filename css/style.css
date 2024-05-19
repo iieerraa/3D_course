@@ -239,10 +239,6 @@ body {
   margin-bottom: 0;
 }
 
-/* .point {
-  align-items: center;
-} */
-
 .point__picture {
   margin-right: 30px;
 }
@@ -329,7 +325,7 @@ body {
   position: absolute;
   right: 4px;
   top: 10px;
-  background-image: url(/img/time.svg);
+  background-image: url(../img/time.svg);
   background-repeat: no-repeat;
   padding-left: 30px;
   height: 100%;
