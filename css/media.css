@@ -277,6 +277,9 @@
   }
 
   .teachers__photo {
+    width:100%;
+    object-fit:cover;
+    max-height:180px;
     margin-bottom: 27px;
   }
 
@@ -304,8 +307,10 @@
     row-gap: 30px;
   }
 
-  .courses__card {
-    min-height: 653px;
+  .card__picture {
+    width:100%;
+    object-fit:cover;
+    max-height:180px;
   }
 
   .card__body {
@@ -322,5 +327,11 @@
 
   .footer__social-media {
     padding-bottom: 23px;
+  }
+}
+
+@media (max-width: 320px) {
+  .courses__card {
+    min-height: 653px;
   }
 }
